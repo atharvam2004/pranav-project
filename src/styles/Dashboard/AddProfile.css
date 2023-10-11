@@ -1,0 +1,23 @@
+.prof-main{
+    width: 40rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: center;
+}
+.prof-img{
+    align-items: center;
+}
+.inner-prof{
+    background: linear-gradient(0deg, #EBEBEB, #EBEBEB),
+    linear-gradient(0deg, #F5F5F5, #F5F5F5);
+    padding: 2rem;
+    width: fit-content;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    margin-top: 15rem;
+    margin-left: 18rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.prof-title{
+    margin-left: 17rem;
+}

@@ -1,0 +1,53 @@
+.dashboard-main{
+    background-color: white;
+
+}
+.dash-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.dash-title{
+    font-family: 'Montserrat';
+    padding: 1%;
+}
+.dash-nav-1{
+    margin-top: 1.5rem;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.img1{
+    padding: 0.5rem;
+}
+.img2{
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.form-control1{
+    border: none;
+}
+.form-group-has-search{
+    border: 1px solid;
+    padding: 0.5% 1% 1% 1%;
+    border-radius: 5px;
+    max-height: 1.2rem;
+    width: 13.5rem;
+    margin-top: 12px;
+    /* margin-right: 15rem; */
+    /* margin: auto; */
+}
+@media screen and (max-width: 968px) {
+    .dash-title{
+        font-family: 'Montserrat';
+    }
+  }
+
+  .page-container{
+    display: flex;
+    gap: 100px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+  }

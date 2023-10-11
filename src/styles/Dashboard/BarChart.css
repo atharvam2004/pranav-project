@@ -1,0 +1,48 @@
+.chart-titles{
+    margin: 0%;
+}
+.bchart-container{
+    padding: 4rem;
+    height: 25rem;
+    width: 70rem;
+}
+.bchart-title{
+    margin-bottom: 0;
+}
+.bchart-spam{
+    margin-top: -5px;
+}
+@media screen and (max-width: 968px) {
+    .bchart-container{
+     
+        width: 40rem;
+        align-items: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .bchart-container{
+     
+        width: 30rem;
+        align-items: center;
+    }
+  }
+
+
+  /* Pie Chart CSS */
+  .pie-chart-main{
+    width: 25rem;
+    height: 32rem;
+
+    margin-left: 3rem;
+    border-radius: 5px;
+    padding: 0.3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .pie-chart-titles{
+    display: flex;
+    justify-content: space-between;
+  }
+  .chart-main{
+    width: 5rem;
+  }
